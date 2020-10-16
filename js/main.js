@@ -9,9 +9,9 @@ function usyn (where){
 }
 
 
-document.querySelector("dodaj").onclick = function(){
+document.getElementById("dodaj").onclick = function(){
     dodac(where_paragraf);
 }
-document.querySelector("usyn").onclick = function(){
+document.getElementById("usyn").onclick = function(){
     usyn(where_paragraf);
 }
